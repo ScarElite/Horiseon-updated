@@ -161,32 +161,18 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+/* Applies to all of the images in the content section */
+.content img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/* Applies to all of the h2's in the content section */
+.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* Footer */
 
 .footer {
     padding: 30px;
