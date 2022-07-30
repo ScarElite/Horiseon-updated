@@ -4,9 +4,7 @@
     margin: 0;
 }
 
-body {
-    background-color: #d9dcd6;
-}
+/* Navigation */
 
 .header {
     padding: 20px;
@@ -50,6 +48,14 @@ p {
     font-size: 16px;
 }
 
+/* Body */
+
+body {
+    background-color: #d9dcd6;
+}
+
+/* Content section (Main section) */
+
 .hero {
     height: 800px;
     width: 100%;
@@ -57,6 +63,14 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+/* Left Column of the content section */
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 .float-left {
@@ -69,11 +83,28 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+/* Applies to the individual sections in the left column of the content section */
+.left-column {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
+
+/* Applies to all of the images in the content section */
+.left-column img {
+    max-height: 200px;
+}
+
+/* Applies to all of the h2's in the content section */
+.left-column h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Right column/ Benefits section of the content section */
 
 .benefits {
     margin-right: 20px;
@@ -93,37 +124,16 @@ p {
 }
 
 /* Applies to all of the h3's in the benefits section of the content section */
-.benefits h3 {
+.right-column h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 /* Applies to all of the images in the benefits column of the content section */
-.benefits img {
+.right-column img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-/* Applies to the individual sections in the left column of the content section */
-.left-column {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Applies to all of the images in the content section */
-.content img {
-    max-height: 200px;
-}
-
-/* Applies to all of the h2's in the content section */
-.content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 /* Footer */
