@@ -56,7 +56,8 @@ body {
 
 /* Content section (Main section) */
 
-.hero {
+/* Main Image */
+.hero img {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
